@@ -81,28 +81,29 @@ gap: 10px;
   border-radius: 5px;
 }
 .share-btn{
-  display: inline-block;
-  position: relative;
-  font-family: "Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
-  color: #000!important;
-  font-weight: 600;
-  line-height: 100%;
-  background: #fff;
-  font-size: 15px;
-  text-decoration: none;
-  border: 1px solid transparent;
-  padding: 13px 12px;
-  border-radius: 3px;
-  cursor: pointer;
-  outline-color: rgba(0,78,255,0.5);
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-  box-shadow: 0 0 0 0.5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent!important;
+  display: flex;
+flex-direction: row;
+gap: 0.4em;
+justify-content: center;
+align-items: center;
+    font-weight: 600;
+    background: #fff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 13px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline-color: rgba(0,78,255,0.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    box-shadow: 0 0 0 0.5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent!important;
 }
 .rej-group{
   display: flex;
+  flex-wrap: wrap;
   gap: 2em;
   align-items: center;
   justify-content: flex-end;
+  padding: 2em;
 
 }
 .rejester{
