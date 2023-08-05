@@ -17,7 +17,6 @@ padding: 0 1em 0 1em;
 align-items: center;
 align-self: stretch;
 font-weight: 500;
-
 gap: 1em;
 }
 .time-loc-info{
@@ -40,7 +39,6 @@ padding: 37px 80px;
 justify-content: center;
 align-items: center;
 gap: 10px;
-align-self: stretch;
 }
 .descrip>p{
   font-size: 1.5em;
@@ -58,18 +56,13 @@ align-self: stretch;
   font-weight: 600;
   
 }
-.list-1{
+.list-1, .list-2{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 align-items: center;
-gap: 10px;
+gap: 1em;
 }
-.list-2{
-  display: flex;
-  flex-direction: column;
-align-items: center;
-gap: 10px;
-}
+
 .detail{
   display: flex;
   align-items: center;
