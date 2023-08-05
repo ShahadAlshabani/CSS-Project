@@ -1,0 +1,54 @@
+
+@media only screen and (max-width: 600px){
+    .info-img{
+        height: 20vh;
+    }
+    body{
+        gap: 1em;
+    }
+    main,
+header {
+  padding: 0.5em;
+}
+.title, .time-loc-info{
+    font-size: 1em;
+    font-weight: 600;
+}
+.time-loc-info{
+    align-items: flex-start;
+}
+.text{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+}
+.descrip>p{
+    font-size: 1em;
+  }
+  .descrip{
+  padding: 2em 1em;
+  }
+  .detail{
+    gap: 3em;
+    font-size: 1em;
+    padding: 2em;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+}
+@media only screen and (min-width: 600px)and (max-width: 768px){
+    .info-img{
+        height: 50vh;
+    }
+
+}
+@media only screen and (min-width: 768px){
+
+}
+@media only screen and (min-width: 992px){
+
+}
+@media only screen and (min-width: 1200px){
+  
+}
