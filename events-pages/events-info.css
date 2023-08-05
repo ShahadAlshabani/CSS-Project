@@ -1,0 +1,114 @@
+.info-img{
+    height: 100vh;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background-image: url(images/cover.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.text{
+  display: flex;
+justify-content: space-between;
+padding: 0 1em 0 1em;
+align-items: center;
+align-self: stretch;
+font-weight: 500;
+
+gap: 1em;
+}
+.time-loc-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 1em;  
+  font-weight: 600;
+  font-size: 1.2em;
+  gap: 2em;
+}
+
+img{
+  height: 1.25rem;
+  width: 1.5rem;
+}
+.descrip{
+  display: flex;
+padding: 37px 80px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+.descrip>p{
+  font-size: 1.5em;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem ;
+  font-size: 1.5em;
+  font-weight: 600;
+  
+}
+.list-title{
+  font-weight: 600;
+  
+}
+.list-1{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.list-2{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.detail{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3em;
+  font-size: 1.3em;
+}
+.cal-btn>.addeventatc{
+  border-radius: 5px;
+}
+.share-btn{
+  display: flex;
+flex-direction: row;
+gap: 0.4em;
+justify-content: center;
+align-items: center;
+    font-weight: 600;
+    background: #fff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 13px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline-color: rgba(0,78,255,0.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    box-shadow: 0 0 0 0.5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent!important;
+}
+.rej-group{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2em;
+
+}
+.rejester{
+  color: #7978FF;
+  font-weight: 500;
+  text-decoration: underline;
+  
+}
