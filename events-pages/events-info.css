@@ -1,0 +1,15 @@
+.info-img{
+    height: 100vh;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background-image: url(images/event-img2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.addeventatc{
+    color: rgb(19, 19, 168);
+}
