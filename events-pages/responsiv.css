@@ -1,7 +1,7 @@
 
 @media only screen and (max-width: 600px){
     .info-img{
-        height: 20vh;
+        height: 30vh;
     }
     body{
         gap: 1em;
@@ -43,11 +43,25 @@ header {
     }
 
 }
-@media only screen and (min-width: 768px){
-
+@media only screen and (min-width: 768px)and (max-width: 992px){
+    .info-img{
+        height: 50vh;
+    }
+ .detail{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3em;
+ }
 }
 @media only screen and (min-width: 992px){
-
+    .info-img{
+        height: 60vh;
+    }
+ .detail{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3em;
+ }
 }
 @media only screen and (min-width: 1200px){
   
