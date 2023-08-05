@@ -33,7 +33,7 @@ body {
   text-shadow: 2px 2px 4px #8696fe;
   color: aliceblue;
 }
-ul {
+nav>ul {
   list-style: none;
 }
 .items-group {

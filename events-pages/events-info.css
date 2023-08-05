@@ -17,18 +17,22 @@ padding: 0 1em 0 1em;
 align-items: center;
 align-self: stretch;
 font-weight: 500;
+
 gap: 1em;
 }
 .time-loc-info{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
-  align-self: stretch;
-  padding: 0 1em;
+  padding: 0 1em;  
+  font-weight: 600;
+  font-size: 1.2em;
+  gap: 2em;
 }
+
 img{
-  height: 1rem;
-  width: 1.25rem;
+  height: 1.25rem;
+  width: 1.5rem;
 }
 .descrip{
   display: flex;
@@ -38,9 +42,65 @@ align-items: center;
 gap: 10px;
 align-self: stretch;
 }
+.descrip>p{
+  font-size: 1.5em;
+}
 .title{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 1rem ;
+  font-size: 1.5em;
+  font-weight: 600;
+  
+}
+.list-title{
+  font-weight: 600;
+  
+}
+.list-1{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.list-2{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.detail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3em;
+  font-size: 1.3em;
+}
+.reister>.cal-btn>.addeventatc{
+  border-radius: 5px;
+}
+.share-btn{
+  display: inline-block;
+  position: relative;
+  z-index: 99998;
+  font-family: "Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+  color: #000!important;
+  font-weight: 600;
+  line-height: 100%;
+  background: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 13px 12px 12px 43px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased!important;
+  outline-color: rgba(0,78,255,0.5);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  box-shadow: 0 0 0 0.5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent!important;
 }
