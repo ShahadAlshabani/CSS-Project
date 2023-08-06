@@ -26,6 +26,21 @@ body {
   align-items: center;
   padding: 1rem 3rem;
 }
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px;
+  width: 100;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}   
+input[type="text"] {
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  width: 300px;
+}
 .logo {
   font-size: 2em;
   text-shadow: 2px 2px 4px #6070d9;
