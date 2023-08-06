@@ -86,7 +86,21 @@ color: #6b0a78;
     font-size: 16px;
     width: 300px;
   }
-      
+  .dropdown-content {
+    display: none;
+    position: relative;
+  }
+  
+  .dropdown-content li {
+    color: #fff;
+    padding: 10px;
+    display: none;
+    text-decoration: none;
+  }
+  
+  a:focus .dropdown-content {
+    display: block;
+  }
 
 
   .bannar-container{
