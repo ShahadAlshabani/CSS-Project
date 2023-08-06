@@ -47,10 +47,9 @@ header {
     overflow: hidden;
  }
 .logo h1 {
-    font-size: 36px;
+    font-size: 2em;
     color:#1c1662;
-    text-shadow: 2px 2px 4px #d4d4d8;
-
+    text-shadow: 2px 2px 4px #6070d9;
 
 }
        
@@ -424,12 +423,10 @@ color: #6b0a78;
     color:#000000;
     overflow: hidden;
  }
-.logo h1 {
-    font-size: 36px;
-    color:#1c1662;
-    text-shadow: 2px 2px 4px #d4d4d8;
-
-
+ .logo h1 {
+  font-size: 3em;
+  color:#1c1662;
+  text-shadow: 2px 2px 4px #6070d9;
 }
        
 .navbar ul {
