@@ -18,16 +18,49 @@ body {
 }
 /* start navbar */
 .navbar {
-  background: #F2F2F2;
-    color: #333;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    align-content: flex-start;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  color:#000000;
+  overflow: hidden;
     
 }
+.navbar ul {
+  display: flex;
+  margin-right: 36px;
+  list-style: none;
+ }
+     
+ .navbar li {
+ margin-right: 30px;
+ margin-left: 30px;
+ }
+     
+ .navbar li a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #1c1662;
+ }
+     
+ .navbar li a:hover {
+ color: #6b0a78;
+  }
+  .search-container {
+     display: flex;
+     align-items: center;
+     background-color: #fff;
+     padding: 5px;
+     border-radius: 20px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+   }   
+   input[type="text"] {
+     border: none;
+     padding: 5px;
+     font-size: 16px;
+     width: 300px;
+   }
 .items-group{
   visibility: visible;
 }
