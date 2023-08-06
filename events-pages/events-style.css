@@ -2,7 +2,6 @@
 * {
   margin: 0%;
   padding: 0%;
-  font-family: "Nunito", sans-serif;
   font-family: "Tajawal", sans-serif;
 
 }
@@ -19,17 +18,37 @@ body {
 }
 /* start navbar */
 .navbar {
-  background: #4942e4;
-  color: #fff;
+  background: #F2F2F2;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    align-content: flex-start;
+    
+}
+.items-group{
+  visibility: visible;
+}
+.search-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
+  background-color: #fff;
+  padding: 5px;
+  width: 100;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}   
+input[type="text"] {
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  width: 300px;
 }
 .logo {
   font-size: 2em;
-  text-shadow: 2px 2px 4px #8696fe;
+  text-shadow: 2px 2px 4px #6070d9;
   color: aliceblue;
 }
 nav>ul {
@@ -50,6 +69,14 @@ nav>ul {
 main,
 header {
   padding: 1em;
+}
+footer {
+  margin-top: auto;
+  background-color:#1c1662;
+  padding: 50px;
+  color: #f2f2f2;
+  text-decoration: none;
+  list-style: none;
 }
 /* strt cover */
 .cover {
@@ -122,6 +149,13 @@ header {
   height: 13.3125rem;
   border-radius: 0.875rem;
 }
+.card-img-2 {
+  background: url(images/event-img2.png), lightgray;
+  background-size: cover;
+  width: 19.25rem;
+  height: 13.3125rem;
+  border-radius: 0.875rem;
+}
 .card-txt {
   width: 100%;
   display: flex;
@@ -156,3 +190,51 @@ header {
 }
 
 /* end cover */
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+.socials a:hover i{
+  color: #48035d;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 1.1rem;
+  color: #cacdd2;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
