@@ -1,5 +1,17 @@
 
 @media only screen and (max-width: 600px){
+body{
+    display: flex;
+    flex-direction: column;
+}
+   .navbar{
+width: 100%;
+}
+    .items-group{
+        visibility: hidden;
+        width: 0vh;
+        
+      }
     .info-img{
         height: 30vh;
     }
@@ -41,7 +53,9 @@ header {
     .info-img{
         height: 50vh;
     }
-
+    .items-group{
+        visibility: hidden;
+      }
 }
 @media only screen and (min-width: 768px)and (max-width: 992px){
     .info-img{
