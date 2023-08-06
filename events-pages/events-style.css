@@ -145,6 +145,13 @@ footer {
   height: 13.3125rem;
   border-radius: 0.875rem;
 }
+.card-img-2 {
+  background: url(images/event-img2.png), lightgray;
+  background-size: cover;
+  width: 19.25rem;
+  height: 13.3125rem;
+  border-radius: 0.875rem;
+}
 .card-txt {
   width: 100%;
   display: flex;
